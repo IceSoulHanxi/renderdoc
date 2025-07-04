@@ -105,31 +105,26 @@ jobs:
         include:
           - name: VS2015 x86 Development
             os: windows-2025
-            compiler: VS2015
             toolset: v140
             platform: x86
             configuration: Development
           - name: VS2015 x64 Development
             os: windows-2025
-            compiler: VS2015
             toolset: v140
             platform: x64
             configuration: Development
           - name: VS2015 x64 Release
             os: windows-2025
-            compiler: VS2015
             toolset: v140
             platform: x64
             configuration: Release
           - name: VS2022 x64 Development
             os: windows-2025
-            compiler: VS2022
             toolset: v143
             platform: x64
             configuration: Development
           - name: VS2022 x64 Release
             os: windows-2025
-            compiler: VS2015
             toolset: v143
             platform: x64
             configuration: Release
